@@ -1,0 +1,32 @@
+<svg width="98" height="98" viewBox="0 0 98 98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>
+        Created with Sketch.
+    </desc>
+    <defs>
+        <circle id="b" cx="48.61" cy="48.61" r="48.61"/>
+        <pattern id="c" width="4.8" height="4.8" x="-3.8" y="-10.24" patternUnits="userSpaceOnUse">
+            <use xlink:href="#a" transform="scale(.1)"/>
+        </pattern>
+        <image id="a" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAV9JREFUaAXt2O0NgjAQBmBrt4DoDiawEHEQB1F3MK7BHKxR+2oKQfnseXCX0B/SEr3zucZIz+R57nZ+OOfuZVmeMcWaOEyWZVdjTBHicMW3aZpekMQnOyVJcqiq6hmSUq6Ig3iIyxnf+iRH7iSc8e1SleJCWGyvZsQboBlRA7QiWgCNiB+ANkQnQBOiF6AFMQjQgBgFSEdMAkhGTAZIRcwCSETMBkhDRAEkIaIBUhAkgAQEGbA2AgCDL0Edax2KrO8e3JCcCsDn10CgK/HQ2I0IZ+w9KucXBfo4mGJNHA79JfSBQhzO+FtfKFS567rEb2LrC3VV/vse507Uf2ScSQDiil8DOJOEHeFAtAAaET8AbYhOgCZEL0ALYhCgATEKkI6YBJCMmAyQipgFkIiYDZCGiAJIQkQDpCBIAAkIMmBtBAD/OMizPe+jQBh9j+JbX+hTn+a1r1K437wrfvYd/wV+UgblD/bGFgAAAABJRU5ErkJggg=="/>
+        <circle id="e" cx="48.56" cy="48.56" r="42.56"/>
+        <filter x="-2.9%" y="-2.9%" width="105.9%" height="105.9%" filterUnits="objectBoundingBox" id="f">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"/>
+            <feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" in="shadowInnerInner1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#b"/>
+        </mask>
+        <use fill="#BFE8EC" xlink:href="#b"/>
+        <rect fill="url(#c)" mask="url(#d)" x="1" y="-5.44" width="95.13" height="101.47" rx="47.56" style="mix-blend-mode:soft-light"/>
+        <use fill="#ACE6EB" xlink:href="#e"/>
+        <use fill="#000" filter="url(#f)" xlink:href="#e"/>
+        <use stroke="#A1DEE4" xlink:href="#e"/>
+        <text opacity=".9" font-family="SFUIText-Medium, SF UI Text" font-size="47" font-weight="400" letter-spacing="2.35" fill="#FFF">
+            <tspan x="34.23" y="70">₹</tspan>
+        </text>
+    </g>
+</svg>
